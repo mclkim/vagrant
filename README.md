@@ -10,7 +10,7 @@ Vagrant를 사용하면 가상 시스템을 신속하게 설치하고 사용하�
 * [VirtualBox](http://www.virtualbox.org)
 * [Vagrant](http://www.vagrantup.com)
 * [Git](http://git-scm.com/)
-* [Docker Box](https://docs.docker.com/toolbox/toolbox_install_windows/)
+* [Docker Box](https://docs.docker.com/toolbox/toolbox_install_windows/)(option)
 
 ## Usage
 
