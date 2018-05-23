@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # config.vm.synced_folder '.', '/vagrant', disabled: true
 
-  config.vm.synced_folder '.', '/mnt/workspace', mount_options: ['dmode=777', 'fmode=666']
+  config.vm.synced_folder '..', '/mnt/workspace', mount_options: ['dmode=777', 'fmode=666']
   config.vm.provision :shell, path: 'provision.sh'
 
     # config.vm.provider "virtualbox" do |vb|
