@@ -18,8 +18,9 @@ Vagrant를 사용하면 가상 시스템을 신속하게 설치하고 사용하�
 ```bash
 $ mkdir homepage
 $ cd homepage
-$ git clone https://github.com/mclkim/vagrant.git .
+$ git clone https://github.com/mclkim/vagrant.git 
 
+$ cd vagrant
 $ vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Importing base box 'ubuntu/trusty64'...
